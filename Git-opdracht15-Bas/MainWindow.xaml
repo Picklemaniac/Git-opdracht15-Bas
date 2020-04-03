@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock>Voer wachtwoord in:</TextBlock><PasswordBox  Width="100"></PasswordBox>
+        </StackPanel>
     </Grid>
 </Window>
